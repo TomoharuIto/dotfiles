@@ -74,6 +74,7 @@ filetype plugin indent on
 set background=dark
 colorscheme lucius " カラースキームを設定
 syntax on " シンタックスハイライトを有効化
+set t_Co=256 "カラーを256色使えるように設定"
 hi Comment ctermfg=grey " コメントカラーの変更
 set list " 不可視文字を可視化
 set listchars=tab:▸-,trail:-,extends:»,precedes:«,nbsp:%,eol:¬ " 不可視文字の表示方法を設定
