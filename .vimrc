@@ -151,7 +151,7 @@ set sessionoptions=tabpages " セッション保存時にtabを含める
 " encoding
 " =========================================
 set fileencoding=utf-8 " 保存時の文字コード
-set fileencodings=utf-8 " ,iso-2022-jp,euc-jp,sjis 読み込み時の文字コードを自動判別(左より優先)
+set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis " 読み込み時の文字コードを自動判別(左より優先)
 set fileformats=unix,dos,mac " 改行コードの自動認識(左より優先)
 " □や○の位置がずれる問題を回避
 if exists('&ambiwidth')
